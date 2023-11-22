@@ -2,7 +2,7 @@
 name: Rust
 
 # To automatically trigger the workflow
-on: [push, pull]
+on: [push, pull_request]
 
 env:
   CARGO_TERM_COLOR: always
